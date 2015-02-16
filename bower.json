@@ -1,0 +1,21 @@
+{
+  "name": "tiy-assignment-11",
+  "version": "0.0.0",
+  "authors": [
+    "Sarrah Vesselov <sarchka1@gmail.com>"
+  ],
+  "description": "Create Category tree the hard way",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
