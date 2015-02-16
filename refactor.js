@@ -121,9 +121,8 @@ var reverseStr = function(str) {
 
 var reverseStr = function(str) {
   
-  var arr = str.split("").reverse().join("");
+  return str.split("").reverse().join("");
 
-  return arr;
 };
 
 // -----------------------------------------------
