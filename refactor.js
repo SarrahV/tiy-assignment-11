@@ -286,8 +286,6 @@ var addNumbers = function(numberA, numberB) {
   console.log(twoPlusTwo);
 };
 
-
-
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -312,6 +310,20 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+
+// The function expects a number to add to speed.
+// When no parameter is given, speed is added to 
+// undefined, making it a falsey (Nan) value.
+
+var speed = 0;
+
+var accelerate = function(amount) {
+
+  if (amount === undefined) {
+      amount = 1;
+  }
+      speed += amount;
+};
 
 
 // -----------------------------------------------
