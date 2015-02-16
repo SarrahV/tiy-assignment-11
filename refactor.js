@@ -86,6 +86,17 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+//My answer is [c]: z then y
+
+var letter = "x"; //declares a var letter with assigned string "x"
+
+setTimeout(function(){  //anonymous function 
+  letter = "y";         //assigns var letter the value of "y"
+  console.log("The letter is", letter); //logs string and the letter "y"
+}, 1); //sets it to run 1 milisecond slower, will run after "z"
+
+letter = "z";   //declares that letter has the value of "z"
+console.log("The letter is", letter); //logs string and the letter "z"
 
 // -----------------------------------------------
 
@@ -108,6 +119,12 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 
+var reverseStr = function(str) {
+  
+  var arr = str.split("").reverse().join("");
+
+  return arr;
+};
 
 // -----------------------------------------------
 
