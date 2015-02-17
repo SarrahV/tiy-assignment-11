@@ -368,6 +368,35 @@ var callLater = function(timeout, callback) {
 
 // Put your answer below -------------------------
 
+//this is the first thing I tried, but it doesn't work
+
+var callLater = function(timeout, callback) {
+
+  if (timeout === undefined) {
+      
+      timeout = 5;
+
+  }
+      setTimeout(callback, timeout);
+
+};
+
+//----------
+
+
+
+var callLater = function(timeout, callback) {
+
+  if (!callback && typeof timeout === "undefined") {
+      callback = "function";
+      timeout = 5;
+  }
+      setTimeout(callback, timeout);
+
+};
+
+
+ 
 
 // -----------------------------------------------
 
